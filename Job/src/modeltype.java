@@ -1,4 +1,5 @@
-
 public enum ModelType {
-	BIG, MEDIUM, SMALL,
+	BIG,
+	MEDIUM,
+	SMALL,
 }

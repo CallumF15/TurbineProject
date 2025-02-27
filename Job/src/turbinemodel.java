@@ -1,19 +1,19 @@
 public class TurbineModel {
 	private String id;
 	private String name;
-	private ModelType type;
+	private ModelType modelType;
 
-	TurbineModel(String id, String name, modelType modelType) {
+	TurbineModel(String id, String name, ModelType modelType) {
 		this.id = id;
 		this.name = name;
-		this.modelType = type;
+		this.modelType = modelType;
 	}
 
+	public String getId() { return this.id;}
 	public String getName() {
 		return this.name;
 	}
-
-	public ModelType type() {
-		return this.type;
+	public ModelType getModelType() {
+		return this.modelType;
 	}
 }
